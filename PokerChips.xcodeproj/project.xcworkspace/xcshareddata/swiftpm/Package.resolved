@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "animatednumber",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jeffgrann/AnimatedNumber",
+      "state" : {
+        "revision" : "3b4254001cc1b88a34e6f438b1d8eb5b71193e31",
+        "version" : "1.0.7"
+      }
+    },
+    {
+      "identity" : "fingertips",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/Fingertips.git",
+      "state" : {
+        "revision" : "828349081181608bf67abe53f5881728a14a0f78",
+        "version" : "0.6.0"
+      }
+    },
+    {
+      "identity" : "poker-hand-evaluator-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jmp/poker-hand-evaluator-swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "0bd216702607dc926d0f78410256b76a726db128"
+      }
+    },
+    {
+      "identity" : "simpletoast",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sanzaru/SimpleToast.git",
+      "state" : {
+        "revision" : "2e68071b1083b91a79506e77f826ee52201d224e",
+        "version" : "0.7.1"
+      }
+    },
+    {
+      "identity" : "swiftuisnappingscrollview?ref=iosexample.com",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ciaranrobrien/SwiftUISnappingScrollView?ref=iosexample.com",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e2cd31e59f61478dae08b9f941bfb910c9413f00"
+      }
+    }
+  ],
+  "version" : 2
+}

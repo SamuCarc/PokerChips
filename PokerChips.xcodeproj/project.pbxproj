@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21C594A2A17E9F20025515E /* SelectAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C59492A17E9F20025515E /* SelectAvatar.swift */; };
+		C2234D742A03130C00879D4B /* PokerChipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2234D732A03130C00879D4B /* PokerChipsApp.swift */; };
+		C2234D762A03130C00879D4B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2234D752A03130C00879D4B /* GameView.swift */; };
+		C2234D782A03130C00879D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2234D772A03130C00879D4B /* Assets.xcassets */; };
+		C2234D7B2A03130C00879D4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2234D7A2A03130C00879D4B /* Preview Assets.xcassets */; };
+		C2234D7D2A03130C00879D4B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2234D7C2A03130C00879D4B /* Persistence.swift */; };
+		C2234D802A03130C00879D4B /* PokerChips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2234D7E2A03130C00879D4B /* PokerChips.xcdatamodeld */; };
+		C2234D882A03137300879D4B /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2234D872A03137300879D4B /* Chip.swift */; };
+		C2234D8B2A031DB000879D4B /* ChipsForAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2234D8A2A031DB000879D4B /* ChipsForAmount.swift */; };
+		C223D4642A081DB300F8116D /* ShowPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223D4632A081DB300F8116D /* ShowPlayers.swift */; };
+		C223D4662A081EE400F8116D /* PlayerInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223D4652A081EE400F8116D /* PlayerInfoRow.swift */; };
+		C223D4682A095C0600F8116D /* ButtonPokerHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223D4672A095C0600F8116D /* ButtonPokerHands.swift */; };
+		C223D46A2A095D2E00F8116D /* ButtonCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223D4692A095D2E00F8116D /* ButtonCall.swift */; };
+		C223D46C2A0964BF00F8116D /* ButtonCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223D46B2A0964BF00F8116D /* ButtonCheck.swift */; };
+		C223D46E2A09669200F8116D /* ButtonFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223D46D2A09669200F8116D /* ButtonFold.swift */; };
+		C223D4702A09721F00F8116D /* ButtonRaise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223D46F2A09721F00F8116D /* ButtonRaise.swift */; };
+		C223D4722A0975CE00F8116D /* ButtonAllIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223D4712A0975CE00F8116D /* ButtonAllIn.swift */; };
+		C223D4742A0A2F1E00F8116D /* SettingsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223D4732A0A2F1E00F8116D /* SettingsIcon.swift */; };
+		C223D4762A0A316800F8116D /* SliderRaise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223D4752A0A316800F8116D /* SliderRaise.swift */; };
+		C23A0ACE2A0BF8580061EB30 /* PokerHandEvaluator in Frameworks */ = {isa = PBXBuildFile; productRef = C23A0ACD2A0BF8580061EB30 /* PokerHandEvaluator */; };
+		C23A0AD02A0BF8E00061EB30 /* TestCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A0ACF2A0BF8E00061EB30 /* TestCards.swift */; };
+		C23A0AD22A0C2BBC0061EB30 /* CardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A0AD12A0C2BBC0061EB30 /* CardExtensions.swift */; };
+		C23A0AD42A12A1D50061EB30 /* ModalWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A0AD32A12A1D50061EB30 /* ModalWin.swift */; };
+		C23A0AD62A12B7AA0061EB30 /* SelectedPlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A0AD52A12B7AA0061EB30 /* SelectedPlayerRow.swift */; };
+		C23A0ADC2A14BFB00061EB30 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A0ADB2A14BFB00061EB30 /* Background.swift */; };
+		C24E22202A36307900E69E81 /* SliderChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24E221F2A36307900E69E81 /* SliderChip.swift */; };
+		C24E22222A387E9A00E69E81 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24E22212A387E9A00E69E81 /* Launch Screen.storyboard */; };
+		C25048FA2A20CAE8002797A2 /* ScrollingHStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25048F92A20CAE8002797A2 /* ScrollingHStackModifier.swift */; };
+		C2557ADB2A23E681006B8C8E /* CreatePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2557ADA2A23E681006B8C8E /* CreatePlayer.swift */; };
+		C2557ADD2A23E68F006B8C8E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2557ADC2A23E68F006B8C8E /* CustomTextField.swift */; };
+		C2557ADF2A23E6B9006B8C8E /* ButtonWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2557ADE2A23E6B9006B8C8E /* ButtonWin.swift */; };
+		C264F3A12A2AD43000B000B5 /* BackgroundCreatePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C264F3A02A2AD43000B000B5 /* BackgroundCreatePlayer.swift */; };
+		C29083042A0B044700B2711D /* DiscardCardsAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29083032A0B044700B2711D /* DiscardCardsAnimation.swift */; };
+		C2C966D12A2A62340009532A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C966D02A2A62340009532A /* Toast.swift */; };
+		C2C966D42A2AB1030009532A /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = C2C966D32A2AB1030009532A /* SimpleToast */; };
+		C2D856FD2A25D2E5004EFF99 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D856FC2A25D2E5004EFF99 /* Feedback.swift */; };
+		C2DFD7EA2A032A0E0002A510 /* ChipsAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DFD7E92A032A0E0002A510 /* ChipsAmount.swift */; };
+		C2DFD7EE2A0336C90002A510 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DFD7ED2A0336C90002A510 /* Player.swift */; };
+		C2DFD7F12A0344B50002A510 /* UniqueRandomNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DFD7F02A0344B50002A510 /* UniqueRandomNumbers.swift */; };
+		C2DFD7F32A03465D0002A510 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DFD7F22A03465D0002A510 /* Avatar.swift */; };
+		C2DFD7F52A03BA910002A510 /* DealerChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DFD7F42A03BA910002A510 /* DealerChip.swift */; };
+		C2DFD7F72A03F82E0002A510 /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DFD7F62A03F82E0002A510 /* CardComponent.swift */; };
+		C2DFD7F92A040A290002A510 /* PokerHandsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DFD7F82A040A290002A510 /* PokerHandsView.swift */; };
+		C2DFD7FC2A040C540002A510 /* NameHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DFD7FB2A040C540002A510 /* NameHand.swift */; };
+		C2DFD7FF2A0422A60002A510 /* AnimatedNumber in Frameworks */ = {isa = PBXBuildFile; productRef = C2DFD7FE2A0422A60002A510 /* AnimatedNumber */; };
+		C2DFD8012A0495CF0002A510 /* PokerFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DFD8002A0495CF0002A510 /* PokerFunctions.swift */; };
+		C2DFD8032A049CBB0002A510 /* StageTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DFD8022A049CBB0002A510 /* StageTitle.swift */; };
+		C2EFF2272A40C65200424713 /* DeletePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EFF2262A40C65200424713 /* DeletePlayer.swift */; };
+		C2EFF2292A41982600424713 /* ButtonStartGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EFF2282A41982600424713 /* ButtonStartGame.swift */; };
+		C2EFF22D2A41AC6B00424713 /* ColorTableComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EFF22C2A41AC6B00424713 /* ColorTableComponent.swift */; };
+		C2EFF22F2A41B45900424713 /* SelectColorTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EFF22E2A41B45900424713 /* SelectColorTable.swift */; };
+		C2EFF2312A41C22C00424713 /* SelectInitStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EFF2302A41C22C00424713 /* SelectInitStack.swift */; };
+		C2EFF2332A41DCBB00424713 /* GeneralViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EFF2322A41DCBB00424713 /* GeneralViewConfig.swift */; };
+		C2EFF2352A431D8100424713 /* SelectBlind.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EFF2342A431D8100424713 /* SelectBlind.swift */; };
+		C2FF2F312A3B3CD6007776CF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF2F302A3B3CD6007776CF /* MainView.swift */; };
+		C2FF2F342A3B3DA9007776CF /* AddPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF2F332A3B3DA9007776CF /* AddPlayers.swift */; };
+		C2FF2F362A3B45B6007776CF /* PlayerAddRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF2F352A3B45B6007776CF /* PlayerAddRow.swift */; };
+		C2FF2F382A3B5769007776CF /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF2F372A3B5769007776CF /* AddButton.swift */; };
+		C2FF2F3A2A3C84C7007776CF /* ConfigGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF2F392A3C84C7007776CF /* ConfigGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C21C59492A17E9F20025515E /* SelectAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAvatar.swift; sourceTree = "<group>"; };
+		C2234D702A03130C00879D4B /* PokerChips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerChips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2234D732A03130C00879D4B /* PokerChipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerChipsApp.swift; sourceTree = "<group>"; };
+		C2234D752A03130C00879D4B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		C2234D772A03130C00879D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2234D7A2A03130C00879D4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2234D7C2A03130C00879D4B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C2234D7F2A03130C00879D4B /* PokerChips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PokerChips.xcdatamodel; sourceTree = "<group>"; };
+		C2234D872A03137300879D4B /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
+		C2234D8A2A031DB000879D4B /* ChipsForAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsForAmount.swift; sourceTree = "<group>"; };
+		C223D4632A081DB300F8116D /* ShowPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPlayers.swift; sourceTree = "<group>"; };
+		C223D4652A081EE400F8116D /* PlayerInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfoRow.swift; sourceTree = "<group>"; };
+		C223D4672A095C0600F8116D /* ButtonPokerHands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPokerHands.swift; sourceTree = "<group>"; };
+		C223D4692A095D2E00F8116D /* ButtonCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCall.swift; sourceTree = "<group>"; };
+		C223D46B2A0964BF00F8116D /* ButtonCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCheck.swift; sourceTree = "<group>"; };
+		C223D46D2A09669200F8116D /* ButtonFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFold.swift; sourceTree = "<group>"; };
+		C223D46F2A09721F00F8116D /* ButtonRaise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRaise.swift; sourceTree = "<group>"; };
+		C223D4712A0975CE00F8116D /* ButtonAllIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAllIn.swift; sourceTree = "<group>"; };
+		C223D4732A0A2F1E00F8116D /* SettingsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsIcon.swift; sourceTree = "<group>"; };
+		C223D4752A0A316800F8116D /* SliderRaise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRaise.swift; sourceTree = "<group>"; };
+		C23A0ACF2A0BF8E00061EB30 /* TestCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCards.swift; sourceTree = "<group>"; };
+		C23A0AD12A0C2BBC0061EB30 /* CardExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardExtensions.swift; sourceTree = "<group>"; };
+		C23A0AD32A12A1D50061EB30 /* ModalWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalWin.swift; sourceTree = "<group>"; };
+		C23A0AD52A12B7AA0061EB30 /* SelectedPlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedPlayerRow.swift; sourceTree = "<group>"; };
+		C23A0ADB2A14BFB00061EB30 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		C24E221F2A36307900E69E81 /* SliderChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderChip.swift; sourceTree = "<group>"; };
+		C24E22212A387E9A00E69E81 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C25048F92A20CAE8002797A2 /* ScrollingHStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingHStackModifier.swift; sourceTree = "<group>"; };
+		C2557ADA2A23E681006B8C8E /* CreatePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatePlayer.swift; path = "../../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/apps/PokerChips/PokerChips/Views/Welcome/CreatePlayer.swift"; sourceTree = "<group>"; };
+		C2557ADC2A23E68F006B8C8E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = "../../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/apps/PokerChips/PokerChips/Views/Welcome/CustomTextField.swift"; sourceTree = "<group>"; };
+		C2557ADE2A23E6B9006B8C8E /* ButtonWin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonWin.swift; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/apps/PokerChips/PokerChips/Components/ButtonWin.swift"; sourceTree = "<group>"; };
+		C264F3A02A2AD43000B000B5 /* BackgroundCreatePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCreatePlayer.swift; sourceTree = "<group>"; };
+		C29083032A0B044700B2711D /* DiscardCardsAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscardCardsAnimation.swift; sourceTree = "<group>"; };
+		C2C966D02A2A62340009532A /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		C2D856FC2A25D2E5004EFF99 /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Feedback.swift; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/apps/PokerChips/PokerChips/Helpers/Feedback.swift"; sourceTree = "<group>"; };
+		C2DFD7E92A032A0E0002A510 /* ChipsAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsAmount.swift; sourceTree = "<group>"; };
+		C2DFD7ED2A0336C90002A510 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C2DFD7F02A0344B50002A510 /* UniqueRandomNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueRandomNumbers.swift; sourceTree = "<group>"; };
+		C2DFD7F22A03465D0002A510 /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		C2DFD7F42A03BA910002A510 /* DealerChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerChip.swift; sourceTree = "<group>"; };
+		C2DFD7F62A03F82E0002A510 /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
+		C2DFD7F82A040A290002A510 /* PokerHandsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerHandsView.swift; sourceTree = "<group>"; };
+		C2DFD7FB2A040C540002A510 /* NameHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameHand.swift; sourceTree = "<group>"; };
+		C2DFD8002A0495CF0002A510 /* PokerFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerFunctions.swift; sourceTree = "<group>"; };
+		C2DFD8022A049CBB0002A510 /* StageTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageTitle.swift; sourceTree = "<group>"; };
+		C2EFF2262A40C65200424713 /* DeletePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePlayer.swift; sourceTree = "<group>"; };
+		C2EFF2282A41982600424713 /* ButtonStartGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStartGame.swift; sourceTree = "<group>"; };
+		C2EFF22C2A41AC6B00424713 /* ColorTableComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableComponent.swift; sourceTree = "<group>"; };
+		C2EFF22E2A41B45900424713 /* SelectColorTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectColorTable.swift; sourceTree = "<group>"; };
+		C2EFF2302A41C22C00424713 /* SelectInitStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectInitStack.swift; sourceTree = "<group>"; };
+		C2EFF2322A41DCBB00424713 /* GeneralViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewConfig.swift; sourceTree = "<group>"; };
+		C2EFF2342A431D8100424713 /* SelectBlind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBlind.swift; sourceTree = "<group>"; };
+		C2FF2F302A3B3CD6007776CF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C2FF2F332A3B3DA9007776CF /* AddPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayers.swift; sourceTree = "<group>"; };
+		C2FF2F352A3B45B6007776CF /* PlayerAddRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerAddRow.swift; sourceTree = "<group>"; };
+		C2FF2F372A3B5769007776CF /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		C2FF2F392A3C84C7007776CF /* ConfigGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigGame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2234D6D2A03130C00879D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DFD7FF2A0422A60002A510 /* AnimatedNumber in Frameworks */,
+				C2C966D42A2AB1030009532A /* SimpleToast in Frameworks */,
+				C23A0ACE2A0BF8580061EB30 /* PokerHandEvaluator in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C21C59472A17E9960025515E /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				C2557ADC2A23E68F006B8C8E /* CustomTextField.swift */,
+				C21C59492A17E9F20025515E /* SelectAvatar.swift */,
+				C2557ADA2A23E681006B8C8E /* CreatePlayer.swift */,
+				C25048F92A20CAE8002797A2 /* ScrollingHStackModifier.swift */,
+				C264F3A02A2AD43000B000B5 /* BackgroundCreatePlayer.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		C21C59482A17E9A20025515E /* PokerHands */ = {
+			isa = PBXGroup;
+			children = (
+				C2DFD7F82A040A290002A510 /* PokerHandsView.swift */,
+				C2DFD7FB2A040C540002A510 /* NameHand.swift */,
+				C2DFD7F62A03F82E0002A510 /* CardComponent.swift */,
+			);
+			path = PokerHands;
+			sourceTree = "<group>";
+		};
+		C2234D672A03130C00879D4B = {
+			isa = PBXGroup;
+			children = (
+				C2234D722A03130C00879D4B /* PokerChips */,
+				C2234D712A03130C00879D4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2234D712A03130C00879D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2234D702A03130C00879D4B /* PokerChips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2234D722A03130C00879D4B /* PokerChips */ = {
+			isa = PBXGroup;
+			children = (
+				C2234D862A03132000879D4B /* App */,
+				C2DFD7FA2A040A3A0002A510 /* Views */,
+				C2DFD7EF2A0342270002A510 /* Assets */,
+				C2234D7C2A03130C00879D4B /* Persistence.swift */,
+				C2234D7E2A03130C00879D4B /* PokerChips.xcdatamodeld */,
+				C2234D792A03130C00879D4B /* Preview Content */,
+				C2234D892A03138200879D4B /* Components */,
+				C2234D8C2A031DDB00879D4B /* Helpers */,
+				C24E22212A387E9A00E69E81 /* Launch Screen.storyboard */,
+			);
+			path = PokerChips;
+			sourceTree = "<group>";
+		};
+		C2234D792A03130C00879D4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2234D7A2A03130C00879D4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2234D862A03132000879D4B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C2234D732A03130C00879D4B /* PokerChipsApp.swift */,
+				C2234D752A03130C00879D4B /* GameView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C2234D892A03138200879D4B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C2DFD7F22A03465D0002A510 /* Avatar.swift */,
+				C23A0ADB2A14BFB00061EB30 /* Background.swift */,
+				C223D4712A0975CE00F8116D /* ButtonAllIn.swift */,
+				C223D4692A095D2E00F8116D /* ButtonCall.swift */,
+				C223D46B2A0964BF00F8116D /* ButtonCheck.swift */,
+				C223D46D2A09669200F8116D /* ButtonFold.swift */,
+				C223D4672A095C0600F8116D /* ButtonPokerHands.swift */,
+				C223D46F2A09721F00F8116D /* ButtonRaise.swift */,
+				C2234D872A03137300879D4B /* Chip.swift */,
+				C2DFD7E92A032A0E0002A510 /* ChipsAmount.swift */,
+				C2DFD7F42A03BA910002A510 /* DealerChip.swift */,
+				C29083032A0B044700B2711D /* DiscardCardsAnimation.swift */,
+				C23A0AD32A12A1D50061EB30 /* ModalWin.swift */,
+				C2DFD7ED2A0336C90002A510 /* Player.swift */,
+				C223D4652A081EE400F8116D /* PlayerInfoRow.swift */,
+				C2DFD8022A049CBB0002A510 /* StageTitle.swift */,
+				C2557ADE2A23E6B9006B8C8E /* ButtonWin.swift */,
+				C223D4632A081DB300F8116D /* ShowPlayers.swift */,
+				C223D4732A0A2F1E00F8116D /* SettingsIcon.swift */,
+				C24E221F2A36307900E69E81 /* SliderChip.swift */,
+				C223D4752A0A316800F8116D /* SliderRaise.swift */,
+				C23A0AD52A12B7AA0061EB30 /* SelectedPlayerRow.swift */,
+				C2C966D02A2A62340009532A /* Toast.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C2234D8C2A031DDB00879D4B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C2D856FC2A25D2E5004EFF99 /* Feedback.swift */,
+				C2234D8A2A031DB000879D4B /* ChipsForAmount.swift */,
+				C2DFD7F02A0344B50002A510 /* UniqueRandomNumbers.swift */,
+				C2DFD8002A0495CF0002A510 /* PokerFunctions.swift */,
+				C23A0AD12A0C2BBC0061EB30 /* CardExtensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C2DFD7EF2A0342270002A510 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C2234D772A03130C00879D4B /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C2DFD7FA2A040A3A0002A510 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C21C59482A17E9A20025515E /* PokerHands */,
+				C23A0ACF2A0BF8E00061EB30 /* TestCards.swift */,
+				C21C59472A17E9960025515E /* Welcome */,
+				C2FF2F322A3B3CE4007776CF /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2FF2F322A3B3CE4007776CF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C2FF2F302A3B3CD6007776CF /* MainView.swift */,
+				C2FF2F332A3B3DA9007776CF /* AddPlayers.swift */,
+				C2FF2F352A3B45B6007776CF /* PlayerAddRow.swift */,
+				C2FF2F372A3B5769007776CF /* AddButton.swift */,
+				C2FF2F392A3C84C7007776CF /* ConfigGame.swift */,
+				C2EFF2322A41DCBB00424713 /* GeneralViewConfig.swift */,
+				C2EFF2262A40C65200424713 /* DeletePlayer.swift */,
+				C2EFF2282A41982600424713 /* ButtonStartGame.swift */,
+				C2EFF22C2A41AC6B00424713 /* ColorTableComponent.swift */,
+				C2EFF22E2A41B45900424713 /* SelectColorTable.swift */,
+				C2EFF2302A41C22C00424713 /* SelectInitStack.swift */,
+				C2EFF2342A431D8100424713 /* SelectBlind.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2234D6F2A03130C00879D4B /* PokerChips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2234D832A03130C00879D4B /* Build configuration list for PBXNativeTarget "PokerChips" */;
+			buildPhases = (
+				C2234D6C2A03130C00879D4B /* Sources */,
+				C2234D6D2A03130C00879D4B /* Frameworks */,
+				C2234D6E2A03130C00879D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokerChips;
+			packageProductDependencies = (
+				C2DFD7FE2A0422A60002A510 /* AnimatedNumber */,
+				C23A0ACD2A0BF8580061EB30 /* PokerHandEvaluator */,
+				C2C966D32A2AB1030009532A /* SimpleToast */,
+			);
+			productName = PokerChips;
+			productReference = C2234D702A03130C00879D4B /* PokerChips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2234D682A03130C00879D4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C2234D6F2A03130C00879D4B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C2234D6B2A03130C00879D4B /* Build configuration list for PBXProject "PokerChips" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2234D672A03130C00879D4B;
+			packageReferences = (
+				C2DFD7FD2A0422A60002A510 /* XCRemoteSwiftPackageReference "AnimatedNumber" */,
+				C23A0ACC2A0BF8580061EB30 /* XCRemoteSwiftPackageReference "poker-hand-evaluator-swift" */,
+				C21C594B2A1B95660025515E /* XCRemoteSwiftPackageReference "SwiftUISnappingScrollView" */,
+				C2D856FE2A261044004EFF99 /* XCRemoteSwiftPackageReference "Fingertips" */,
+				C2C966D22A2AB1030009532A /* XCRemoteSwiftPackageReference "SimpleToast" */,
+			);
+			productRefGroup = C2234D712A03130C00879D4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2234D6F2A03130C00879D4B /* PokerChips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2234D6E2A03130C00879D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24E22222A387E9A00E69E81 /* Launch Screen.storyboard in Resources */,
+				C2234D7B2A03130C00879D4B /* Preview Assets.xcassets in Resources */,
+				C2234D782A03130C00879D4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2234D6C2A03130C00879D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2234D7D2A03130C00879D4B /* Persistence.swift in Sources */,
+				C2DFD8032A049CBB0002A510 /* StageTitle.swift in Sources */,
+				C2D856FD2A25D2E5004EFF99 /* Feedback.swift in Sources */,
+				C2FF2F3A2A3C84C7007776CF /* ConfigGame.swift in Sources */,
+				C2FF2F382A3B5769007776CF /* AddButton.swift in Sources */,
+				C2234D762A03130C00879D4B /* GameView.swift in Sources */,
+				C23A0AD62A12B7AA0061EB30 /* SelectedPlayerRow.swift in Sources */,
+				C2EFF2272A40C65200424713 /* DeletePlayer.swift in Sources */,
+				C264F3A12A2AD43000B000B5 /* BackgroundCreatePlayer.swift in Sources */,
+				C23A0AD22A0C2BBC0061EB30 /* CardExtensions.swift in Sources */,
+				C2FF2F342A3B3DA9007776CF /* AddPlayers.swift in Sources */,
+				C223D46A2A095D2E00F8116D /* ButtonCall.swift in Sources */,
+				C2DFD7F72A03F82E0002A510 /* CardComponent.swift in Sources */,
+				C2EFF2312A41C22C00424713 /* SelectInitStack.swift in Sources */,
+				C223D4702A09721F00F8116D /* ButtonRaise.swift in Sources */,
+				C29083042A0B044700B2711D /* DiscardCardsAnimation.swift in Sources */,
+				C2234D742A03130C00879D4B /* PokerChipsApp.swift in Sources */,
+				C2EFF22F2A41B45900424713 /* SelectColorTable.swift in Sources */,
+				C2234D8B2A031DB000879D4B /* ChipsForAmount.swift in Sources */,
+				C23A0ADC2A14BFB00061EB30 /* Background.swift in Sources */,
+				C223D4742A0A2F1E00F8116D /* SettingsIcon.swift in Sources */,
+				C223D4722A0975CE00F8116D /* ButtonAllIn.swift in Sources */,
+				C2EFF2292A41982600424713 /* ButtonStartGame.swift in Sources */,
+				C2234D882A03137300879D4B /* Chip.swift in Sources */,
+				C2C966D12A2A62340009532A /* Toast.swift in Sources */,
+				C2FF2F362A3B45B6007776CF /* PlayerAddRow.swift in Sources */,
+				C2DFD7EA2A032A0E0002A510 /* ChipsAmount.swift in Sources */,
+				C2DFD7EE2A0336C90002A510 /* Player.swift in Sources */,
+				C2DFD7FC2A040C540002A510 /* NameHand.swift in Sources */,
+				C23A0AD42A12A1D50061EB30 /* ModalWin.swift in Sources */,
+				C2EFF22D2A41AC6B00424713 /* ColorTableComponent.swift in Sources */,
+				C223D4682A095C0600F8116D /* ButtonPokerHands.swift in Sources */,
+				C24E22202A36307900E69E81 /* SliderChip.swift in Sources */,
+				C2EFF2332A41DCBB00424713 /* GeneralViewConfig.swift in Sources */,
+				C2557ADF2A23E6B9006B8C8E /* ButtonWin.swift in Sources */,
+				C2DFD8012A0495CF0002A510 /* PokerFunctions.swift in Sources */,
+				C2EFF2352A431D8100424713 /* SelectBlind.swift in Sources */,
+				C223D4662A081EE400F8116D /* PlayerInfoRow.swift in Sources */,
+				C2557ADD2A23E68F006B8C8E /* CustomTextField.swift in Sources */,
+				C223D4762A0A316800F8116D /* SliderRaise.swift in Sources */,
+				C223D46E2A09669200F8116D /* ButtonFold.swift in Sources */,
+				C2DFD7F92A040A290002A510 /* PokerHandsView.swift in Sources */,
+				C223D4642A081DB300F8116D /* ShowPlayers.swift in Sources */,
+				C2DFD7F52A03BA910002A510 /* DealerChip.swift in Sources */,
+				C23A0AD02A0BF8E00061EB30 /* TestCards.swift in Sources */,
+				C25048FA2A20CAE8002797A2 /* ScrollingHStackModifier.swift in Sources */,
+				C2DFD7F32A03465D0002A510 /* Avatar.swift in Sources */,
+				C223D46C2A0964BF00F8116D /* ButtonCheck.swift in Sources */,
+				C2FF2F312A3B3CD6007776CF /* MainView.swift in Sources */,
+				C2557ADB2A23E681006B8C8E /* CreatePlayer.swift in Sources */,
+				C2DFD7F12A0344B50002A510 /* UniqueRandomNumbers.swift in Sources */,
+				C21C594A2A17E9F20025515E /* SelectAvatar.swift in Sources */,
+				C2234D802A03130C00879D4B /* PokerChips.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2234D812A03130C00879D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2234D822A03130C00879D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2234D842A03130C00879D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokerChips/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KUUA8R6UW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokerChips/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GBrosTech.PokerChips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2234D852A03130C00879D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokerChips/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KUUA8R6UW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokerChips/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GBrosTech.PokerChips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2234D6B2A03130C00879D4B /* Build configuration list for PBXProject "PokerChips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2234D812A03130C00879D4B /* Debug */,
+				C2234D822A03130C00879D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2234D832A03130C00879D4B /* Build configuration list for PBXNativeTarget "PokerChips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2234D842A03130C00879D4B /* Debug */,
+				C2234D852A03130C00879D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C21C594B2A1B95660025515E /* XCRemoteSwiftPackageReference "SwiftUISnappingScrollView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ciaranrobrien/SwiftUISnappingScrollView?ref=iosexample.com";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C23A0ACC2A0BF8580061EB30 /* XCRemoteSwiftPackageReference "poker-hand-evaluator-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jmp/poker-hand-evaluator-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C2C966D22A2AB1030009532A /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanzaru/SimpleToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.1;
+			};
+		};
+		C2D856FE2A261044004EFF99 /* XCRemoteSwiftPackageReference "Fingertips" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/Fingertips.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		C2DFD7FD2A0422A60002A510 /* XCRemoteSwiftPackageReference "AnimatedNumber" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jeffgrann/AnimatedNumber";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C23A0ACD2A0BF8580061EB30 /* PokerHandEvaluator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C23A0ACC2A0BF8580061EB30 /* XCRemoteSwiftPackageReference "poker-hand-evaluator-swift" */;
+			productName = PokerHandEvaluator;
+		};
+		C2C966D32A2AB1030009532A /* SimpleToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2C966D22A2AB1030009532A /* XCRemoteSwiftPackageReference "SimpleToast" */;
+			productName = SimpleToast;
+		};
+		C2DFD7FE2A0422A60002A510 /* AnimatedNumber */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2DFD7FD2A0422A60002A510 /* XCRemoteSwiftPackageReference "AnimatedNumber" */;
+			productName = AnimatedNumber;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C2234D7E2A03130C00879D4B /* PokerChips.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2234D7F2A03130C00879D4B /* PokerChips.xcdatamodel */,
+			);
+			currentVersion = C2234D7F2A03130C00879D4B /* PokerChips.xcdatamodel */;
+			path = PokerChips.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2234D682A03130C00879D4B /* Project object */;
+}
